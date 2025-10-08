@@ -32,3 +32,8 @@ cc = "1.2"
 
 [dev-dependencies]
 tree-sitter = "0.25.9"
+
+[workspace.metadata.release]
+publish = false
+pre-release-hook = ["git-cliff", "-o", "CHANGELOG.md", "--tag", "{{version}}"]
+allow-branch = ["master"]
