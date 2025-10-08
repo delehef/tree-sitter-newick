@@ -1,7 +1,7 @@
 [package]
 name = "tree-sitter-newick"
 description = "A parser for (extended) Newick files (nh, nwk, nhx)"
-version = "1.0.0"
+version = "1.1.0"
 authors = ["Franklin Delehelle <github@odena.eu>"]
 license-file = "LICENSE.txt"
 readme = "README.md"
