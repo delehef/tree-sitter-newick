@@ -1,6 +1,10 @@
 # tree-sitter-newick
 
-A [tree-sitter](https://tree-sitter.github.io/tree-sitter/) grammar for the [Newick (nh, nwk)](https://en.wikipedia.org/wiki/Newick_format) and [New Hampshire X (nhx)](https://www.cs.mcgill.ca/~birch/birchhomedir/java/forester/NHX.pdf) formats for trees representation.
+A [tree-sitter](https://tree-sitter.github.io/tree-sitter/) grammar for the
+[Newick (nh, nwk)](https://en.wikipedia.org/wiki/Newick_format) and [New
+Hampshire X
+(nhx)](https://www.cs.mcgill.ca/~birch/birchhomedir/java/forester/NHX.pdf)
+formats for trees representation.
 
 # Example
 
