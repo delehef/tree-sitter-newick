@@ -12,3 +12,4 @@
 ### Miscellaneous Tasks
 
 - Update to tree-sitter 0.25
+- Add CHANGELOG
