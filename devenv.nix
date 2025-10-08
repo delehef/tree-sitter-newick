@@ -7,6 +7,7 @@
 
   languages = {
     rust.enable = true;
+    javascript.enable = true;
     typescript.enable = true;
   };
 

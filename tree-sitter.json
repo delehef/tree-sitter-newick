@@ -1,0 +1,41 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "newick",
+      "camelcase": "Newick",
+      "title": "Newick",
+      "scope": "source.newick",
+      "file-types": [
+        "nwk",
+        "nhx",
+        "nw"
+      ],
+      "injection-regex": "^newick$",
+      "class-name": "TreeSitterNewick"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "license": "CeCILL-C",
+    "description": "A parser for (extended) Newick files (nh, nwk, nhx)",
+    "authors": [
+      {
+        "name": "Franklin Delehelle",
+        "email": "github@odena.eu"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/delehef/tree-sitter-newick"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
