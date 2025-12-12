@@ -3,6 +3,7 @@ name = "tree-sitter-newick"
 description = "A parser for (extended) Newick files (nh, nwk, nhx)"
 version = "1.1.0"
 authors = ["Franklin Delehelle <github@odena.eu>"]
+license = "CECILL-C"
 license-file = "LICENSE.txt"
 readme = "README.md"
 keywords = ["incremental", "parsing", "tree-sitter", "newick"]
